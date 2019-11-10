@@ -17,8 +17,8 @@
 #include <dt-bindings/mmc/mt6739-msdc.h>
 #include <dt-bindings/pinctrl/mt6739-pinfunc.h>
 #include <generated/autoconf.h>
-#include "hct_include/hct_project_all_config.h"
-#include "hct_include/hct_board_dts_config.h"
+#include <hct_include/hct_project_all_config.h>
+#include <hct_include/hct_board_dts_config.h>
 
 / {
 	model = "mt6739";
