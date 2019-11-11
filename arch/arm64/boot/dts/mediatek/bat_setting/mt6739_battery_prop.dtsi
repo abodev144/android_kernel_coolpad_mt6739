@@ -7,11 +7,11 @@ bat_gm30: bat_gm30{
 	EMBEDDED_SEL = <(0)>;	/*	Configures whether using embedded battery or not.*/
 	PMIC_SHUTDOWN_CURRENT = <(20)>;	/*	System shutdown current.*/
 	FG_METER_RESISTANCE = <(75)>;	/*	The resistance of PCB*/
-	CAR_TUNE_VALUE = <(100)>;	/*	Tune value for current measurement.*/
+	CAR_TUNE_VALUE = <(79)>;	/*	Tune value for current measurement.*/
 	TEMPERATURE_T0 = <(50)>;	/*	Battery temperature T0*/
 	TEMPERATURE_T1 = <(25)>;	/*	Battery temperature T1*/
-	TEMPERATURE_T2 = <(10)>;	/*	Battery temperature T2*/
-	TEMPERATURE_T3 = <(0)>;	/*	Battery temperature T3*/
+	TEMPERATURE_T2 = <(0)>;	/*	Battery temperature T2*/
+	TEMPERATURE_T3 = <(-10)>;	/*	Battery temperature T3*/
 	g_FG_PSEUDO100_T0 = <(98)>;	/*	Pseudo 100% percentage at T0.*/
 	g_FG_PSEUDO100_T1 = <(98)>;	/*	Pseudo 100% percentage at T1.*/
 	g_FG_PSEUDO100_T2 = <(95)>;	/*	Pseudo 100% percentage at T2.*/
